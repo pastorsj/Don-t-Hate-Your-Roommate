@@ -1,0 +1,59 @@
+
+#matchTab, #surveyTab, #photoTab {
+	display: none;
+}
+
+.customRow {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#surveyTab, #photoTab {
+	text-align: left;
+}
+
+.clip-circle {
+  height:200px;
+  width:200px;
+  border-radius:50%;
+  overflow:hidden;
+  margin:auto;
+}
+
+.clip-circle img {
+	min-width:100%;
+	min-height:100%;
+}
+
+#userName {
+	font-family: MuseoSans-500;
+	font-weight: normal;
+	font-style: normal;
+}
+
+#profileTable {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	background-color: #e6e7e8;
+}
+
+#surveyTab {
+	background-color: white;
+	padding-left: 20px;
+}
+
+.button-group .active{
+	background-color: #007095;
+}
+
+/*.sub-nav {
+	max-width: 98%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	background-color: #f2f2f2;
+}*/

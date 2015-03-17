@@ -1,0 +1,10 @@
+label {
+	font-size: 14pt;
+	font-family: Arial, sans-serif;
+}
+
+input[type=radio] {
+	vertical-align:top;
+    width: 50px;
+    height: 2em;
+}

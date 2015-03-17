@@ -1,0 +1,184 @@
+.body {
+	text-align: center;
+}
+
+.jumbotron {
+	color: white;
+	margin-left: auto;
+	margin-right: auto;
+	width: 100%;
+	height: 100%;
+}
+
+.jumbotron p {
+	margin-top: 10px;
+}
+
+.jumbotron .content {
+	width: 100%;
+	height: 500px;
+	position: relative;
+}
+
+.header {
+	color: white;
+	width: 100%;
+	height: 500px;
+	/*background-color: #800909;*/
+	/*background-color: #4dbcb6;*/
+	background-color: #214D5D;
+}
+
+.header h2, .header h4, .header p {
+	font-family: "Museo Sans", "Lucida Grande", Arial, sans-serif;
+	color: white;
+}
+
+.slick-dots li button:before, .slick-dots li.slick-active button:before {
+	color: white;
+	font-size: 20px;
+}
+
+.slick-dots {
+	margin-left: auto;
+	margin-right: auto;
+	position: absolute;
+	bottom: 10px;
+}
+
+.right li #login {
+	vertical-align: middle;
+}
+
+.right li button, .right li a button {
+	vertical-align: middle;
+	display: table-cell;
+}
+
+.alert-box {
+	display: inline;
+}
+
+button.radius, .button.radius {
+	background-color: #e7e7e7;
+	border-color: #b9b9b9;
+	color: #333333;
+}
+
+button.radius:hover, button.radius:focus, .button.radius:hover, .button.radius:focus {
+	background-color: #b9b9b9;
+}
+button.radius:hover, button.radius:focus, .button.radius:hover, .button.radius:focus {
+	color: #333333;
+}
+
+.row {
+	margin-left: 0%;
+}
+
+nav h1 {
+	font-family: MuseoSans-500;
+	font-weight: normal;
+	font-style: normal;
+}
+
+.steps {
+	text-align: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.slick-prev {
+	position: absolute;
+	left: 30px;
+}
+.slick-next {
+	font-size: 10px;
+	position: absolute;
+	right: 30px;
+}
+
+.slick-prev.slick-disabled:before, .slick-next.slick-disabled:before, .slick-next, .slick-prev, .slick-prev:before, .slick-prev:after, .slick-next:after, .slick-prev:hover:before, .slick-next:hover:before, .slick-prev:focus:before, .slick-next:focus:before, .slick-next:before, .slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+	font-size: 70px;
+	width: 70px;
+	height: 70px;
+}
+
+.slick-prev:before, .slick-next:before {
+	opacity: 0.80;
+}
+
+.content img {
+	z-index: -1;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+
+.content h2 {
+	width: 100%;
+	z-index: 100;
+	position: absolute;
+	color: white;
+	left: 0;
+	top: 0px;
+}
+
+.content h2 span {
+	color: white;
+	letter-spacing: -1px;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.4);
+	padding: 10px;
+}
+
+.top-bar-section li.active:not(.has-form) a:not(.button), .top-bar-section li:not(.has-form) a:not(.button) {
+	padding-left: 42px;
+	padding-right: 42px;
+}
+
+
+.top-bar-section ul li > a {
+	font-family: "Museo Sans", Helvetica, Arial, sans-serif !important;
+	font-weight: bold;
+	border-left: 1px solid #555555;
+}
+
+
+.top-bar-section li a:not(.button) {
+    padding-left: 30px;
+	padding-right: 30px;   
+}
+
+.top-bar-section li a:not(.button):hover {
+    background: #222222 !important;
+}
+
+.top-bar-section ul li.active > a {
+	background: #008CBA !important;
+	padding-left: 30px;
+	padding-right: 30px;  
+}
+
+.top-bar-section ul li.active > a:hover {
+	background: #007095 !important;
+}
+
+.customRow {
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+.main-hr {
+	border: 0;
+    border-bottom: 1px solid #CDCDCD;
+    clear: both;
+    display: block;
+    height: 0;
+    margin: 0 auto 50px auto;
+    padding-top: 50px;
+    max-width: 60%;
+    width: 100%;
+}
